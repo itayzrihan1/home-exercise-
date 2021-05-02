@@ -1,0 +1,10 @@
+1 . What is the difference between os.environ and os.getenv ?
+
+The difference between os.envrion and os.getenv is os.environ raises an exception if the environmental variable does not exist. 
+os.getenv does not raise an exception, but returns None.
+
+
+2. What is the difference between json.dumps and json.dump ?
+
+The json.dump() method (without “s” in “dump”) used to write Python serialized object as JSON formatted data into a file, however The json.dumps() method encodes 
+any Python object into JSON formatted String.
